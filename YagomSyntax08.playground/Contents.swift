@@ -1,10 +1,10 @@
 import Cocoa
 
-// 조건문 - if/else, switch
+// 조건문 - if/else if/else, switch
 
 let someInteger = 100
 
-// if/else
+// if/else if/else
 
 // if condition {
 // statements
@@ -58,14 +58,14 @@ default:
 // 100
 
 // 정수 외의 대부분의 기본 타입을 사용할 수 있다.
-switch "yagom" {
+switch "jun" {
 case "yuri":
     print("yuri")
 case "yujin":
     print("yujin")
-case "yagom":
-    print("yagom!!")
+case "jun":
+    print("jun")
 default:
     print("unknown")
 }
-// "yagom!!"
+// jun
